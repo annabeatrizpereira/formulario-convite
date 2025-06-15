@@ -9,7 +9,7 @@
 
 <p>O layout foi elaborado no Figma pela equipe da Rocketseat e toda a implementação visual foi feita com HTML5 e CSS3, sem uso de JavaScript. Também foram aplicadas práticas modernas de usabilidade e acessibilidade.</p>
 
-<p>Você pode visualizar o projeto publicado no GitHub Pages <a href="[https://annabeatrizpereira.github.io/formulario-convite/"](https://annabeatrizpereira.github.io/formulario-convite/)>aqui.</a></p>
+<p>Você pode visualizar o projeto publicado no GitHub Pages <a href="https://annabeatrizpereira.github.io/formulario-convite/">aqui.</a></p>
 
 <h2>Tecnologias</h2>
 
