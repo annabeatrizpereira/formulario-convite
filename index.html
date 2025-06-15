@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Convite</title>
+    <link rel="stylesheet" href="styles/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <aside>
+        <img src="./assets/icons/Logo.svg" alt="Logo" />
+        <br />
+        <img src="./assets/Festivite.png" alt="Logo" />
+
+        <p>Crie um convite digital para o seu evento</p>
+      </aside>
+
+      <main>
+        <h1>Crie seu convite</h1>
+
+        <form>
+          <fieldset id="event">
+            <legend>
+              <img src="./assets/icons/calendar.svg" alt="callendar icon" />
+
+              <h2>Sobre o evento</h2>
+            </legend>
+
+            <div class="flex flex-col">
+              <label for="title">Título</label>
+              <input
+                type="text"
+                name="title"
+                id="title"
+                placeholder="Nome do evento"
+              />
+            </div>
+
+            <div class="grid grid-cols-2 justify-between">
+              <div class="flex flex-col">
+                <label for="date">Início</label>
+                <input type="datetime-local" name="date" id="date" />
+              </div>
+
+              <div class="flex flex-col">
+                <label for="end-date">Fim</label>
+                <input type="datetime-local" name="end-date" id="end-date" />
+              </div>
+
+              <div class="flex flex-col">
+                <label for="modality">Tipo</label>
+
+                <div class="radio-wrapper">
+                  <div class="radio-button">
+                    <input type="radio" name="modality" id="presencial" />
+                    <div class="image-presencial"></div>
+                    <span>Presencial</span>
+                  </div>
+
+                  <div class="radio-button">
+                    <input type="radio" name="modality" id="online" />
+                    <div class="image-online"></div>
+                    <span>Online</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex flex-col">
+                <label for="local">Local</label>
+                <input
+                  type="text"
+                  name="local"
+                  id="local"
+                  placeholder="Link ou endereço"
+                />
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <label for="description">Descrição</label>
+              <textarea
+                placeholder="Escreva sobre os detalhes do evento"
+              ></textarea>
+            </div>
+          </fieldset>
+
+          <fieldset id="personalization">
+            <legend>
+              <img src="./assets/icons/pencil.svg" alt="pencil icon" />
+              <h2>Personalização</h2>
+            </legend>
+
+            <div>
+              <p>Cor principal</p>
+
+              <div class="colors">
+                <span>
+                  <input type="radio" name="" id="color-1" />
+                </span>
+                <span>
+                  <input type="radio" name="" id="color-2" />
+                </span>
+                <span>
+                  <input type="radio" name="" id="color-3" />
+                </span>
+                <span>
+                  <input type="radio" name="" id="color-4" />
+                </span>
+                <span>
+                  <input type="radio" name="" id="color-5" />
+                </span>
+                <span>
+                  <input type="radio" name="" id="color-6" />
+                </span>
+                <span>
+                  <input type="radio" name="" id="color-7" />
+                </span>
+                <span>
+                  <input type="radio" name="" id="color-8" />
+                </span>
+                <span>
+                  <input type="radio" name="" id="color-9" />
+                </span>
+                <span>
+                  <input type="radio" name="" id="color-10" />
+                </span>
+                <span>
+                  <input type="radio" name="" id="color-11" />
+                </span>
+              </div>
+            </div>
+
+            <div>
+              <p>Tema do evento</p>
+
+              <div class="images-wrapper">
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image.png" alt="" />
+                  <span>Aniversário</span>
+                </div>
+
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image-1.png" alt="" />
+                  <span>Infantil</span>
+                </div>
+
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image-2.png" alt="" />
+                  <span>Formatura</span>
+                </div>
+
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image-3.png" alt="" />
+                  <span>Casamento</span>
+                </div>
+
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image-4.png" alt="" />
+                  <span>Chá de bebê</span>
+                </div>
+
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image-5.png" alt="" />
+                  <span>Chá de panela</span>
+                </div>
+
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image-6.png" alt="" />
+                  <span>Carnaval</span>
+                </div>
+
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image-7.png" alt="" />
+                  <span>Páscoa</span>
+                </div>
+
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image-8.png" alt="" />
+                  <span>São João</span>
+                </div>
+
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image-9.png" alt="" />
+                  <span>Halloween</span>
+                </div>
+
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image-10.png" alt="" />
+                  <span>Natal</span>
+                </div>
+
+                <div>
+                  <input type="radio" name="images" />
+                  <img src="./assets/images/Image-11.png" alt="" />
+                  <span>Outro</span>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset id="personalization-2">
+            <div class="toggle-wrapper">
+              <p>Estilo</p>
+
+              <div>
+                <input type="checkbox" id="toggle" />
+                <label for="toggle" class="toggle-label"> </label>
+
+                <p class="toggle-text">
+                  <span class="modo-escuro">Escuro</span>
+                  <span class="modo-claro">Claro</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="input-file">
+              <label for="input-file">Foto de capa</label>
+
+              <div>
+                <input type="file" name="input-file" id="input-file" />
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset id="contact">
+            <legend>
+              <img src="./assets/icons/person.svg" alt="person icon" />
+              <h2>Dados para contato</h2>
+            </legend>
+
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nome completo"
+            />
+
+            <div>
+              <div>
+                <label for="email">E-mail</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="email@example.com"
+                />
+              </div>
+
+              <div>
+                <label for="telephone">Telefone</label>
+                <input
+                  type="tel"
+                  name="telephone"
+                  id="telephone"
+                  placeholder="(99) 9999-9999"
+                />
+              </div>
+            </div>
+          </fieldset>
+
+          <hr />
+
+          <fieldset id="checkbox-wrapper">
+            <span>
+              <input type="checkbox" name="" id="" />
+              <p>
+                Li e concordo com os <a href="#">Termos e Condições</a> e com a
+                <a href="#">Política de Privacidade</a>
+              </p>
+            </span>
+
+            <span>
+              <input type="checkbox" name="" id="" />
+              <p>Aceito receber atualizações e promoções por e-mail</p>
+            </span>
+
+            <span>
+              <input type="checkbox" name="" id="" />
+              <p>Aceito receber atualizações e promoções por SMS</p>
+            </span>
+          </fieldset>
+
+          <div id="button">
+            <button type="submit">
+              <img src="./assets/icons/invitation.svg" alt="invitation icon" />
+              Gerar convite
+            </button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-family: 'Open sans', sans-serif;
+    --font-heading: 'Baloo 2', sans-serif;
+
+    --heading-md: 800 1.75rem/1 var(--font-heading);
+    --heading-sm: 800 .8rem/1 var(--font-heading);
+    --body-md: 600 1rem/1 var(--font-family);
+    --body-sm: 400 0.875rem/1rem var(--font-family);
+    --body-xs: 600 0.75rem/1.5rem var(--font-family);
+
+    --brand-light: #59B2FF;
+    --brand-mid: #3487CF;
+    --brand-dark: #1D6FB6;
+
+    --purple: #B259FF;
+    --fuschia: #FF59F9;
+    --pink: #FF598B;
+    --orange: #FF8B59;
+    --yellow: #FFCD59;
+    --lime: #E1FF59;
+    --green: #59FF91;
+    --cyan: #59FFF9;
+    --navy: #6A59FF;
+
+    --danger: #FF5959;
+    --input-base: #1C1F21;
+    --input-stroke: #363B40;
+    --input-placeholder: #869198;
+    --shape-background: #131516;
+    --shape-body: #212427;
+    --shape-button: #2D3136;
+    --shape-hover: #383D42;
+    --text-body: #C8CDD0;
+    --text-heading: #F9F9F9;
+}
+
+.app {
+    padding: 1.25rem;
+    max-height: 100vh;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 1.25rem;
+    overflow: hidden;
+
+    background-color: var(--shape-background);
+}
+
+main {
+    overflow: auto;
+    background-color: var(--shape-body);
+    border-radius: .75rem;
+
+    padding: 5rem 8.125rem;
+
+    & h1 {
+        color: var(--text-heading);
+        font: var(--heading-md);
+        margin-bottom: 2.5rem;
+    }
+   
+}
+
+aside {
+    background-image: url(../assets/images/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 2rem;
+    height: 100%;
+    width: 400px;
+    border-radius: .75rem;
+
+    & img:first-child {
+        height: 48px;
+        margin-bottom: 1rem;
+    }
+
+    & p {
+        color: var(--text-heading);
+        font: var(--body-md);
+        margin-top: 4px;
+    }
+} 
+
+a {
+    color: var(--brand-light);
+    font: var(--body-sm);
+}
+
+hr {
+    color: var(--input-stroke);
+}
+
+input:hover, 
+input:focus,
+textarea:hover,
+textarea:focus {
+    border: 1px solid var(--brand-light);
+}

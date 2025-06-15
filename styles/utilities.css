@@ -1,0 +1,35 @@
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-2 {
+    grid-template-columns: repeat(2, 48%);
+}
+
+.gap {
+    gap: 1rem;
+}
