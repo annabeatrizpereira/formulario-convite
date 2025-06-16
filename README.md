@@ -1,7 +1,7 @@
 <h1>Formulário de Convite ✨</h1>
 
 <p>Um formulário de convite estilizado para eventos especiais, criado para praticar CSS moderno.</p>
-<img src="./assets/printscreen-formulario.png" alt="Printscreen do formulário de convite">
+<img src="./assets/printscreen.png" alt="Printscreen do formulário de convite">
 
 <h2>Descrição</h2>
 

@@ -246,15 +246,25 @@
               <h2>Dados para contato</h2>
             </legend>
 
-            <label for="name">Nome</label>
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Nome completo"
-            />
+            <div class="attention">
+              <label for="name">Nome</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Nome completo"
+                required
+              />
+              <div class="error">
+                <img
+                  src="./assets/icons/attention.svg"
+                  alt="ícone de alerta"
+                />
+                <span>Nome deve ser preenchido</span>
+              </div>
+            </div>
 
-            <div>
+            <div class="separated">
               <div>
                 <label for="email">E-mail</label>
                 <input
