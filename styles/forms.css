@@ -395,11 +395,11 @@ fieldset {
     flex-direction: column;
     margin-bottom: 2rem;
 
-    input[required] {
+    & input[required] {
       border: 1px solid var(--danger);
     }
 
-    input[required] + .error {
+    & input[required] + .error {
         display: flex;
         align-items: center;
         gap: .25rem;
@@ -408,11 +408,11 @@ fieldset {
     }
 
     /* enquanto não estiver em foco */
-    input:not(:focus):valid {
+    & input:not(:focus):valid {
       border: 1px solid var(--input-stroke);
     }
 
-    input:not(:focus):valid + .error {
+    & input:not(:focus):valid + .error {
         display: none;
     }
   }
